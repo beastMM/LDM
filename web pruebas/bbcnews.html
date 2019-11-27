@@ -21,7 +21,7 @@ ul {
     }
 .ul2 {
         background-color: red;
-        height: 150px;
+        min-height: auto;
         margin-right: 0px;
         margin-left: 0px;
 }
@@ -49,8 +49,21 @@ li a:hover:not(.active) {
     size: 35px;
 }
 
+.div1 {
+        min-height: auto;
+        margin-top: 0%;
+        background-color: red;
+}
+
+.p1 {
+        text-align: left;
+        font-size: 50px;
+        color: white;
+}
+
 </style>
-<ul>
+<ul> 
+        <div>
         <li><img width="50px" height="42px" src="https://static.bbci.co.uk/wwhp/1.141.0/responsive/img/apple-touch/apple-touch-180.jpg"></a></li>
         <li><a href="#home">News</a></li>
         <li><a href="#news">Sport</a></li>
@@ -60,23 +73,31 @@ li a:hover:not(.active) {
         <li><a href="#about">Future</a></li>
         <li><a href="#about">Culture</a></li>
         <li><a href="#about">More</a></li>
+        </div>
 </ul>
-<ul class="ul2">
-    <li class="li2 a"><a>NEWS</a></li>
-    <li class="li2 a"><a href="#home">Home</a></li>
-    <li class="li2 a"><a href="#news">Video</a></li>
-    <li class="li2 a"><a href="#contact">World</a></li>
-    <li class="li2 a"><a href="#about">UK</a></li>
-    <li class="li2 a"><a href="#about">Business</a></li>
-    <li class="li2 a"><a href="#about">Tech</a></li>
-    <li class="li2 a"><a href="#about">Science</a></li>
-    <li class="li2 a"><a href="#about">Stories</a></li>
-    <li class="li2 a"><a href="#about">Entertainment & Arts</a></li>
-    <li class="li2 a"><a href="#about">Health</a></li>
-    <li class="li2 a"><a href="#about">World News TV</a></li>
-    <li class="li2 a"><a href="#about">More</a></li>
-</ul>
+        </div>
 </head>
 <body>
-</body>
+<div>
+  <div class="div1">
+        <!-- <p class="p1">NEWS</p> -->
+  </div>
+  <div>
+        <ul class="ul2">
+                <li class="li2 a"><a>NEWS</a></li>
+                <li class="li2 a"><a href="#home">Home</a></li>
+                <li class="li2 a"><a href="#news">Video</a></li>
+                <li class="li2 a"><a href="#contact">World</a></li>
+                <li class="li2 a"><a href="#about">UK</a></li>
+                <li class="li2 a"><a href="#about">Business</a></li>
+                <li class="li2 a"><a href="#about">Tech</a></li>
+                <li class="li2 a"><a href="#about">Science</a></li>
+                <li class="li2 a"><a href="#about">Stories</a></li>
+                <li class="li2 a"><a href="#about">Entertainment & Arts</a></li>
+                <li class="li2 a"><a href="#about">Health</a></li>
+                <li class="li2 a"><a href="#about">World News TV</a></li>
+                <li class="li2 a"><a href="#about">More</a></li>
+  </div>
+</div>
+        </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Serpiente</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+	<style>
+        body {
+            background-color: black;
+        }
+		canvas {
+			border: 1px solid white;
+		}
+        .p1 {
+            margin-left: 900px;
+            font-size: 50px;
+            color: darkturquoise;
+        }
+        .p2 {
+            color:darkturquoise;
+            margin-left: 900px;
+            margin-top: 50px;
+            align-content: center;
+        }
+	</style>
+    <body onkeydown="control(event);">
+        <p class="p1">Juego de la serpiente</p>
+        <p class="p2">Para jugar simplemente usar las teclas de direccion del teclado</p>
+		<script src="snake.js"></script>
+        <canvas id="canvas" width="600" height="600"></canvas>
+	</body>
+</html>
